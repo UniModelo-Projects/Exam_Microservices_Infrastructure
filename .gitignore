@@ -1,0 +1,10 @@
+API_Gateway/
+Eureka_Server/
+Order_Microservice/
+Payment_MicroService/
+Product_Microservice/
+.mvn/
+target/
+*.jar
+.vscode/
+.idea/
