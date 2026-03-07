@@ -11,6 +11,16 @@ Este proyecto es una implementación de una arquitectura de microservicios robus
 - **LocalStack (AWS CloudWatch)**: Simulación de servicios de AWS para el almacenamiento y visualización de logs centralizados.
 - **Docker & Docker Compose**: Orquestación de contenedores para el despliegue local.
 
+## Ecosistema de Repositorios
+Este proyecto está dividido en varios repositorios para mantener la independencia de cada componente:
+
+- **[Infraestructura y Guías](https://github.com/UniModelo-Projects/Exam_Microservices_Infrastructure)** (Este repositorio)
+- **[Eureka Server](https://github.com/UniModelo-Projects/Exam_Microservices_Eureka_Server)**
+- **[API Gateway](https://github.com/UniModelo-Projects/Exam_Microservices_API_Gateway)**
+- **[Product Microservice](https://github.com/UniModelo-Projects/Exam_Microservices_Products)**
+- **[Order Microservice](https://github.com/UniModelo-Projects/Exam_Microservices_Orders)**
+- **[Payment Microservice](https://github.com/UniModelo-Projects/Exam_Microservices_Payments)**
+
 ## Puertos de los Servicios
 | Servicio | Puerto | Descripción |
 | :--- | :--- | :--- |
