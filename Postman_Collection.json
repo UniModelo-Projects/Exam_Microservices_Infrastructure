@@ -57,7 +57,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"nombre\": \"Laptop\",\n    \"precio\": 1200.0,\n    \"stock\": 10\n}"
+              "raw": "{\n    \"nombre\": \"Laptop\",\n    \"precio\": 1200.0,\n    \"stock\": 10,\n    \"descripcion\": \"Laptop potente para desarrollo\"\n}"
             },
             "url": {
               "raw": "{{baseUrl}}/productos",
@@ -83,7 +83,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"nombre\": \"Laptop Pro\",\n    \"precio\": 1500.0,\n    \"stock\": 5\n}"
+              "raw": "{\n    \"nombre\": \"Laptop Pro\",\n    \"precio\": 1500.0,\n    \"stock\": 5,\n    \"descripcion\": \"Laptop Pro con mejores especificaciones\"\n}"
             },
             "url": {
               "raw": "{{baseUrl}}/productos/{{Product_ID}}",
